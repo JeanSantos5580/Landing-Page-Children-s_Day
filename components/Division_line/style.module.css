@@ -1,0 +1,7 @@
+.container img{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    height: 8rem;
+    margin-bottom: 6.9rem;
+}

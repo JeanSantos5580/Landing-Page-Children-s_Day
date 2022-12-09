@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.burguerBar {
+    width: 100%;
+    height: 5em;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+.burguerLines {
+    width: 4em;
+    height: 0.5em;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.containerSideBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sideBar {
+    width: 15rem;
+    height: 100vh;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.sideBar span {
+    width: 8.7rem;
+    height: 4rem;
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    cursor: pointer; 
+}
+
+/* sliding menu */
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----------Animations --------- */
+.burguerBar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burguerBar.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burguerBar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+
+.burguerBar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}

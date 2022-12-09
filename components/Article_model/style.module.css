@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerArticle {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.containerImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.containerTextIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.articleImg {
+    width: 355px;
+    height: 328px;
+}
+
+.subtitleImg {
+    width: 259px;
+    height: 66px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    width: 703.18px;
+    height: 221.31px;
+
+    color: #626060;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaIcons {
+    display: flex;
+    align-items: center;
+    gap: 20.68px
+}
+
+.facebookIcon {
+    width: 16.49px;
+    height: 29.26px;
+}
+
+.twitterIcon {
+    width: 27.32px;
+    height: 26px;
+}

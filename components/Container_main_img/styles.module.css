@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 704px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/images/mainImage.png);
+    background-size:auto;
+}
+
+.containerComponents {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29rem ;
+    height: 100vh;
+}
+  
+.waveImg{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.title1 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.title2 {
+    width: 870px;
+    height: 150.21px;
+    font-family: 'Fredoka One';
+    font-size: 4.0rem;
+    line-height: 5.0rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+
+
+
